@@ -55,6 +55,7 @@ These rules apply to every research request and every responses you write to the
   - fundus: 眼底，医生检查时能看到的眼球后部区域
   - optic nerve: 视神经，把视觉信号从眼睛传到大脑的“线路”
   - optic disc: 视盘，视神经进入眼球的位置
+  - optic cup: 视杯，视盘中央的凹陷区域，常用于计算**杯盘比（C/D ratio）**，判断青光眼风险
   - choroid: 脉络膜，位于视网膜下方、负责供血的组织
   - vitreous: 玻璃体，填充在眼球内部的透明胶状物
   - cornea: 角膜，眼球最前面的透明外层
@@ -64,7 +65,6 @@ These rules apply to every research request and every responses you write to the
   - conjunctiva: 结膜，覆盖眼白和眼睑内侧的薄膜
   - sclera: 巩膜，眼球外层的白色坚韧组织
   - tear film: 泪膜，覆盖眼表、维持湿润和清晰视力的泪液层
-  - handheld fundus camera: 手持眼底相机，可移动使用的眼底拍摄设备
   - retinal imaging: 视网膜成像，对眼底进行图像采集和分析
   - ultra-widefield imaging: 超广角眼底成像，一次拍到更大范围眼底的技术
   - optical coherence tomography: 光学相干断层扫描，用光学方法给视网膜做分层切片
@@ -91,6 +91,7 @@ These rules apply to every research request and every responses you write to the
   - retinal vein occlusion: 视网膜静脉阻塞，眼底静脉堵塞导致出血或水肿
   - retinal artery occlusion: 视网膜动脉阻塞，眼底动脉堵塞导致突然视力下降
   - uveitis: 葡萄膜炎，眼内炎症性疾病
+  - tessellated fundus: 豹纹状眼底，近视性眼底改变的早期表现之一
   - dry eye disease: 干眼症，泪液不足或泪膜不稳定引起的不适和视力波动
   - keratoconus: 圆锥角膜，角膜变薄并向前突出、影响视力
   - amblyopia: 弱视，视觉发育异常导致视功能差
