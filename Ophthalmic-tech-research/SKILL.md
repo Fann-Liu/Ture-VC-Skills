@@ -39,5 +39,6 @@ Then, evaluates what you have found. For virtual products, start with user. For 
 
 **Final test:** does this sound like a real researcher who wants to provide accurate investment information, and make it actually work?
 
-# Writing Style (skip entirely if EXPLAIN_LEVEL: terse appears in the preamble echo OR the user's current message explicitly requests terse / no-explanations output)
+# Writing Style (skip entirely if the user's current message explicitly requests terse / no-explanations output)
+These rules apply to every research requires, every responses you write to the user.
 
