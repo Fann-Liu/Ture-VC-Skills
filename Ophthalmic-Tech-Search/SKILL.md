@@ -196,9 +196,12 @@ This phase is only for quick sourcing judgment, not deep company research, marke
 This rule only applies to medical device products. If the product does not require medical certification, classify it only by commercialization stage and financing level.
 
 **Verify Companies Financing**
-  1. The company gets no financing yet.
+  1. The company gets no disclosed financing, undisclosed financing, or treated as unfunded.
   2. The company is financed and total funding is less than EUR or CHF 5 million.
   3. The company is financed and total funding is more than EUR or CHF 5 million.
+
+Use the best public approximation to determine the financing bucket.
+If multiple public sources disagree, prefer the company's own disclosure, then reputable databases, then major media.
 
 **Classify Companies**
 According to judgement above, classify companies.
@@ -215,7 +218,12 @@ Give a list including following information:
   - 公司判断
   - 信息来源
 
-In the list, "公司名称" refers to the company's name; "主要产品" refers to the company's main product;"融资规模" refers to total funding, it's ok to give an approximate number;"公司判断" refers to the result of **Classify Companies**;"信息来源" refers to the websites where you find the company and its official website.
+In the list:
+- "公司名称" refers to the company's name
+- "主要产品" refers to the company's main product
+- "融资规模" refers to the company's approximate total funding based on public information. If the company has no disclosed financing or the funding amount is not publicly disclosed, output `--`. `--` always maps to financing = 1.
+- "公司判断" refers to the result of **Classify Companies**
+- "信息来源" refers to the websites where you find the company and its official website
 
 ## Output Template ##
 | 公司名称 | 主要产品 | 融资规模 | 公司判断 | 信息来源 |
@@ -227,6 +235,7 @@ In the list, "公司名称" refers to the company's name; "主要产品" refers 
 **Never make up.**
 - Keep each row short and factual.
 - Do not add paragraphs before or after the table unless the user asks.
-- If a field cannot be verified, write `信息不足`.
-- Do not infer funding, certification, or commercialization from vague marketing claims.
-
+- For `融资规模`, use an approximate amount only when public information clearly shows that the company has raised funding.
+- If the company has no disclosed financing or the funding situation is undisclosed, output `--`.
+- `--` always means financing = 1.
+- Do not infer certification or commercialization from vague marketing claims.
