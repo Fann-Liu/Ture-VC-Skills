@@ -140,6 +140,7 @@ Find candidate companies and list the key reason each matters.
   - Gov Websites
   - Well-known events
   - Tech-Media
+
 including but not limited to:
 │ • Tech.eu       │ • Crunchbase    │ • Dealroom Reports          │
 │ • Sifted (FT)   │ • PitchBook     │ • CB Insights               │
