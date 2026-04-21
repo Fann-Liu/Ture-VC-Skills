@@ -2,7 +2,7 @@
 This is a repository to store skills. These skills imitate and standardise the workflow of a Medtech & Hardtech-focused VC researcher.
 
 ---
-# Ophthalmic-Tech-Search
+# Ophthalmic Company Search
 
 A sourcing skill for WISER ASIA.
 
