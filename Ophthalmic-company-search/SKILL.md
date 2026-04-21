@@ -1,8 +1,7 @@
 ---
 name: Ophthalmic-company-search
 description: |
-  Use when the user wants to find new companies, recent startups, or promising projects in ophthalmology, eye-care, retinal imaging, fundus camera, eye screening, or ophthalmic devices, especially in Europe and the Nordic region. This includes common Chinese requests such as “帮我找点新公司”, “最近有什么北欧初创公司”, “帮我找找最近的眼科公司”, “搜一些欧洲眼科技术项目”, “看看最近有什么新的眼科创业公司”, and similar sourcing requests. Only do company search and light screening.
-
+  Use when the user wants to find relevant ophthalmology companies, recent startups, or established companies with recent meaningful updates in ophthalmology, eye-care, retinal imaging, fundus camera, eye screening, or ophthalmic devices, especially in Europe and the Nordic region. This includes common Chinese requests such as “帮我找点新公司”, “最近有什么北欧初创公司”, “帮我找找最近的眼科公司”, “搜一些欧洲眼科技术项目”, “看看最近有什么新的眼科创业公司”, and similar sourcing requests. Include both newer companies and older companies with recent important developments. Only do company search and light screening.
 triggers:
   - 搜索新公司
   - 眼科项目
@@ -139,6 +138,9 @@ Only return a short sourcing table based on verifiable information.
 
 ## Phase 1: Company Search
 Find candidate companies and list the key reason each matters. Only search for European companies, preferably those based in the Nordic region.
+When searching, include companies in any of these groups:
+  A. Newer companies founded in recent years
+  B. Established companies with recent meaningful updates, such as new products, new certifications, new financing, new partnerships, or new market moves
 
 ### Default Source Priority ###
 Search in this order:
