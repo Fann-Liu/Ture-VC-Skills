@@ -221,280 +221,373 @@ The final recommendation should feel earned by the analysis above, not appended 
 
 # Core Mission
 
-This skill is used after sourcing has already happened.
+This skill is used after initial sourcing and before full competitor teardown.
 
-Its job is to answer one question:
+Its job is to produce a deep-research memo on one company and answer one practical question:
 
-**Is this company worth further WISER attention, and if yes, why?**
+**Does this company deserve further WISER attention, and if yes, why?**
 
-Not:
-- building a long company list
-- doing broad sector education
-- doing a full competitor teardown across ten companies
+This means the skill must test:
 
-This is a **single-company deep research** skill.
+- whether the product solves a real problem
+- whether the buyer logic is real
+- whether the commercial path is believable
+- whether the differentiation is meaningful
+- whether the China opportunity is real rather than cosmetic
+- whether WISER can help in a concrete way
+
+This skill is not for:
+- broad company discovery
+- loose industry education
+- generic background summaries
+- full multi-company competitor mapping
+- founder-friendly storytelling
+
+The standard is not "write a lot."
+The standard is "produce a judgment that is well-supported, auditable, and commercially useful."
+
+# Research Priorities
+
+When doing deep research, prioritize questions in this order:
+
+1. Is the problem real?
+2. Is the buyer real?
+3. Is the payment logic real?
+4. Is the product ready enough?
+5. Is the differentiation meaningful?
+6. Is the market large enough and reachable enough?
+7. Is China entry believable?
+8. Is WISER actually relevant here?
+
+Do not start with TAM if the buyer logic is weak.
+Do not start with founder narrative if the workflow is unclear.
+Do not let market size substitute for commercial proof.
 
 # Hard Rules
 
-1. Do not pretend uncertain information is confirmed.
-2. Every important claim should point to evidence.
-3. Every important number should show the logic behind it.
-4. Distinguish clearly between:
-   - confirmed fact
-   - reasoned inference
-   - open question
-5. If market sizing is included, show assumptions.
-6. If China opportunity is discussed, name the likely buyers, channel path, and barriers.
-7. End with a clear recommendation:
-   - Proceed
-   - Watch
-   - Pass
+1. Do not present marketing claims as research conclusions.
+2. Do not confuse company description with investment judgment.
+3. Do not treat pilots, partnerships, or press coverage as proof of scalable demand unless the evidence supports that.
+4. Do not discuss China in generic terms. Name customer types, channels, barriers, and likely substitutes.
+5. Do not use a large market to hide weak product-market logic.
+6. Do not give a positive recommendation without naming the key unresolved risks.
+7. If evidence is weak, say so directly.
+8. If the company may be interesting but not actionable for WISER, say that directly.
+9. If the output includes numbers, show assumptions or source logic.
+10. Always end with a recommendation that follows from the analysis.
 
+# Workflow
 
-# WISER Deep Research
+## Step 1: Define the company precisely
 
----
-
-## Research Objective
-
-For one company, determine:
-
-- What product it sells
-- What problem it solves
-- Who actually buys it
-- Why customers would pay
-- Whether the product is technically and commercially mature
-- Whether the company has meaningful differentiation
-- Whether China is a realistic opportunity
-- Whether WISER can create real value for this company
-
-## Workflow
-
-### Step 1: Define the company clearly
-
-Write the shortest correct definition possible:
-
-- What is the company
-- What is the core product
-- What clinical or operational problem does it solve
-- Who uses it
-- In which setting it is used
-- What is the real business category
-
-Avoid vague labels like "AI healthcare platform" unless the company truly is one.
-
-Good example:
-"Optomed is a hand-held fundus camera company with screening workflow and AI-read integration, mainly used for diabetic retinopathy screening in primary care and mobile care settings."
-
-### Step 2: Verify the customer and use case
+Start by writing the shortest correct definition of the company.
 
 Answer:
+- What does the company actually sell?
+- What category is it really in?
+- What problem does it solve?
+- In which setting is it used?
+- Who is the intended user?
 
-- Who is the real customer
-- Who is the user
-- Who pays
-- What problem is painful enough to trigger purchase
-- What workflow changes after adoption
-- What benefit is real:
-  - revenue increase
-  - cost reduction
-  - time saving
-  - better access
-  - compliance / screening completion
-  - clinical decision support
+Avoid broad labels like:
+- AI healthcare company
+- digital platform
+- innovative ecosystem
 
-Separate:
+Prefer specific definitions such as:
+- handheld fundus camera company
+- autonomous diabetic retinopathy screening software company
+- ophthalmic imaging workflow vendor
+- retina-focused diagnostic device maker
+
+## Step 2: Verify the problem and use case
+
+Test whether the problem is painful enough to support buying behavior.
+
+Answer:
+- What exact workflow problem exists today?
+- Who experiences it most directly?
+- What is broken in the current way of doing things?
+- Is the current alternative expensive, slow, inconvenient, inaccurate, underused, or capacity-constrained?
+- Does this product solve a real operational or clinical bottleneck?
+
+Distinguish clearly between:
+- nice-to-have improvement
+- meaningful workflow improvement
+- must-solve pain point
+
+## Step 3: Map the customer, buyer, and payment chain
+
+This is a required section.
+
+Identify separately:
 - end user
 - economic buyer
-- channel partner
-- referral partner
+- procurement approver
+- reimbursement driver if relevant
+- distribution or channel partner if relevant
 
-### Step 3: Verify commercial viability
+Answer:
+- Who uses the product?
+- Who benefits financially or operationally?
+- Who signs the purchase?
+- Who influences the decision?
+- What budget does this likely come from?
+- Is the purchase event recurring, episodic, or one-off?
 
-Look for:
+If the answer is unclear, say so.
+A weak buying chain is often more important than a strong slide deck.
 
+## Step 4: Test the commercial model
+
+Evaluate how the business actually turns product value into revenue.
+
+Check:
 - revenue model
 - pricing logic
-- procurement path
-- reimbursement logic if relevant
+- gross margin logic if visible
 - sales cycle
-- repeat purchase or recurring revenue
-- evidence of real deployment, not just pilots
+- service burden
+- repeatability
+- renewal or recurring revenue logic
+- deployment complexity
+- dependence on pilots, grants, or one-off projects
 
 Key questions:
-- Why do customers buy now
-- Why from this company
-- Can this scale beyond one-off trial projects
-- Is this a device sale, workflow sale, or outcome sale
+- Why do customers buy now?
+- Why from this company instead of an alternative?
+- Is the company selling equipment, software, workflow, service, or outcome?
+- What must happen for the sales motion to scale?
 
-### Step 4: Verify technical and regulatory readiness
+## Step 5: Test technical, clinical, and regulatory readiness
 
-For the relevant product, check:
+This section should pressure-test whether the product is mature enough to matter.
 
-- technical maturity
-- product readiness
-- clinical validation
+Look for:
+- product maturity
+- technical readiness
+- quality of validation
+- quality of clinical evidence
 - regulatory approvals
-- deployment requirements
-- integration complexity
-- whether the technology changes diagnosis, expands screening, or mainly improves convenience
+- claims that depend on future approvals
+- integration requirements
+- operating constraints
+- training burden
 
-Do not confuse:
-- interesting technology
-- clinically useful product
-- commercially scalable product
+Ask:
+- Is the technology interesting, useful, or already deployable?
+- Does it improve diagnosis, screening, efficiency, or economics in a meaningful way?
+- Are the regulatory claims current and relevant to the target market?
+- Is there enough evidence that the product can be used consistently in the real world?
 
-### Step 5: Estimate market with explicit assumptions
+## Step 6: Assess differentiation
 
-Only size the market after the use case and payment logic are reasonably clear.
+Do not treat every feature as a moat.
 
-Use both methods when possible:
+Answer:
+- Is this me-better or me-first?
+- What exactly is differentiated?
+- Is the edge based on product form factor, evidence, workflow fit, price, reimbursement, regulatory lead, channel, or installed base?
+- Is the edge durable or easy to copy?
+- Would the buyer care enough about this difference to switch or adopt?
 
+Separate:
+- true differentiation
+- temporary advantage
+- feature-level distinction
+- founder narrative
+
+## Step 7: Size the reachable market
+
+Only do this after the use case and buyer logic are reasonably clear.
+
+Use both when possible:
 - top-down
 - bottom-up
 
-At minimum distinguish:
-
+At minimum separate:
 - potential users
 - target users
 - paying users
 
-Use transparent assumptions.
-If the data is weak, state the weakness.
-Prefer a credible range over a false precise number.
+When discussing market size:
+- define the market boundary clearly
+- show assumptions
+- identify uncertainty
+- avoid fake precision
+- explain what portion of the market is realistically reachable
 
-### Step 6: Assess differentiation
+Prefer:
+- "This is a meaningful niche with credible adoption"
+Over:
+- "This is a massive market" with no purchasing logic
 
-Ask:
+## Step 8: Assess China landing potential
 
-- Is this me-better or me-first
-- What is genuinely differentiated
-- Is the edge technical, workflow, channel, regulatory, cost, speed, or product form factor
-- How easy is the edge to copy
-- What would make a buyer choose this over alternatives
+This is required for WISER relevance.
 
-Do not overstate small feature differences as moat.
-
-### Step 7: Assess China landing potential
-
-This is a required section for WISER relevance.
-
-Answer concretely:
-
-- Which China customer type is most likely to buy first
-- What exact scenario fits first
-- What approvals or localization are needed
-- What channel or partner structure would be required
-- What local substitutes already exist
-- What would block adoption:
-  - price
-  - regulation
-  - reimbursement
-  - workflow mismatch
-  - weak local service
-  - competition
-
-Do not say "China market is large" unless you also explain how the company actually enters it.
-
-### Step 8: Judge WISER fit
-
-This is not generic investing. This is WISER work.
+Do not discuss China as a slogan.
+Make it operational.
 
 Answer:
+- Which customer type in China would buy first?
+- In what exact use case?
+- Through what channel?
+- What local registration or localization work is required?
+- What service model is needed?
+- What local players or substitutes already exist?
+- What pricing pressure is likely?
+- What would stop this company from landing successfully?
 
-- Can WISER help this company in a concrete way
-- Is the value mainly:
+If the company sounds attractive globally but weak in China, say so clearly.
+
+## Step 9: Judge WISER fit
+
+This is the section that makes the memo useful internally.
+
+Answer:
+- Can WISER help in a practical, near-term way?
+- Is the likely value:
   - China BD
-  - channel access
-  - partner introduction
+  - distributor access
+  - local partner introductions
   - pilot design
-  - market entry strategy
-  - investor relationship
-- Is there a believable 6-month collaboration picture
-- Is there a believable path to commercial traction
+  - market-entry support
+  - investor positioning
+- Is there a believable 3-6 month collaboration path?
+- Would time spent on this company likely convert into real progress?
 
-If WISER cannot help meaningfully now, say so.
+A company can be good and still not be a good WISER fit.
+Say that directly when needed.
 
-### Step 9: Conclude with a decision
+## Step 10: Conclude with an earned decision
 
 End with one of:
-
 - Proceed
 - Watch
 - Pass
 
-Then explain in 3 parts:
+Then explain:
+- why the company is attractive or unattractive
+- what the main unresolved question is
+- what evidence would most change the judgment
+- what should happen next, if anything
 
-- Why it is attractive
-- What is still unproven
-- What must be verified next
+# Required Output Structure
 
-## Required Output Structure
+## 1. One-line verdict
+A sharp summary of the judgment.
 
-### 1. One-line verdict
-A sharp sentence with the core judgment.
+## 2. Company definition
+What the company is, what it sells, and what category it is really in.
 
-### 2. Company definition
-What it is, what it sells, who it serves.
+## 3. Why this matters
+Why the problem matters now and why this company may matter in that context.
 
-### 3. Why this may matter
-Problem severity, timing, buyer logic.
+## 4. Customer, buyer, and workflow
+Who uses it, who pays, who approves, and what changes after adoption.
 
-### 4. Customer and workflow
-User, buyer, use case, purchase trigger.
+## 5. Commercial model
+How revenue is created, what the buying logic is, and whether the model looks scalable.
 
-### 5. Commercial model
-Revenue logic, pricing logic, repeatability, deployment evidence.
+## 6. Product, clinical, and regulatory readiness
+What is mature, what is validated, and what is still weak or unproven.
 
-### 6. Technology and regulatory readiness
-What is mature, what is validated, what is still risky.
+## 7. Differentiation
+What is truly differentiated, what is merely described as differentiated, and how durable the edge looks.
 
-### 7. Market reality
-Market size logic, user segmentation, adoption constraints.
+## 8. Market reality
+Reachable market, adoption logic, and the assumptions behind the sizing.
 
-### 8. Differentiation
-Real edge, weak edge, copy risk.
+## 9. China landing potential
+Likely first customer, likely path to entry, and major blockers.
 
-### 9. China opportunity
-Likely first buyers, entry path, main obstacles.
+## 10. WISER fit
+Why WISER should spend time here or not.
 
-### 10. WISER fit
-Why WISER should or should not spend time here.
+## 11. Risks and missing proof
+List the missing evidence clearly and separately from confirmed facts.
 
-### 11. Risks and missing proof
-Bullet the missing evidence clearly.
-
-### 12. Recommendation
+## 12. Recommendation
 Proceed / Watch / Pass
 
-## What Good Output Looks Like
+Include:
+- Core reason
+- Biggest open question
+- Next thing to verify
 
-A good output lets a partner quickly answer:
+# Output Requirements
 
-- Is this company real
-- Is the need real
-- Is the business real
-- Is the edge real
-- Is China real
-- Is WISER relevant
+Every report should make it easy for a reader to answer:
 
-## Boundaries With Other Skills
+- What does this company actually do?
+- Is the problem worth solving?
+- Is the buyer real?
+- Is the product ready enough?
+- Is the commercial logic believable?
+- Is the differentiation meaningful?
+- Is China actually relevant?
+- Can WISER help?
+- Should we spend more time here?
 
-### Compared with Ophthalmic-company-search
-That skill finds targets and does first-pass screening.
-This skill takes one target and goes deep.
+The output must contain both:
+- judgment
+- support
 
-### Compared with competitor-analysis
-That skill maps the competitive field in detail.
-This skill only includes enough competition analysis to judge the target company.
+A good memo does not just conclude.
+It shows why the conclusion deserves to be believed.
 
-## Final Check
+# Boundaries With Other Skills
 
-Before finishing, ask yourself:
+## Compared with Ophthalmic-company-search
 
-- Did I define the company precisely
-- Did I identify the real buyer
-- Did I explain why someone would pay
-- Did I separate fact from inference
-- Did I explain China with real landing logic
-- Did I say whether WISER should proceed
+`Ophthalmic-company-search` is for finding companies and doing first-pass screening.
+
+It is used to answer:
+- Is this company worth noticing?
+- Why now?
+- Is there enough signal to put it on the list?
+
+This deep-research skill is used after that.
+
+It is used to answer:
+- Is this company worth deeper WISER attention?
+- Is the product, business, and China path believable?
+- What would make us proceed, wait, or pass?
+
+## Compared with competitor-analysis
+
+`competitor-analysis` is for detailed market mapping and side-by-side competitor breakdown.
+
+It is used to answer:
+- Who else is in the field?
+- How do competitors compare across product, pricing, channel, evidence, and positioning?
+- Where does the target company sit in the competitive set?
+
+This deep-research skill should include only the amount of competition analysis needed to judge the target company.
+It should not become a full category mapping exercise.
+
+# Final Check
+
+Before finishing, ask:
+
+- Did I define the company precisely?
+- Did I identify the real buyer, not just the user?
+- Did I explain why someone would pay?
+- Did I separate fact, inference, and unknowns?
+- Did I test commercial logic instead of repeating company claims?
+- Did I discuss China in operational terms?
+- Did I explain whether WISER can help in a concrete way?
+- Did I make the final recommendation feel earned?
+
+# Final Test
+
+A strong output should read like a real buy-side decision memo.
+
+It should not read like:
+- a company profile
+- a press summary
+- a founder pitch cleaned up into paragraphs
+- a generic industry report
+
+It should feel like a serious internal judgment built from evidence, with enough explanation that another investor can audit the reasoning and disagree intelligently.
