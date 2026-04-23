@@ -474,81 +474,480 @@ If no real moat is visible, say so directly.
 "So far this looks like product advantage without durable protection" is a valid conclusion.
 
 
-## Step 7: Size the reachable market
+## Step 7: Size the market with explicit calculation
 
-Only do this after the use case and buyer logic are reasonably clear.
+This step must follow the segmentation established in Step 3.
 
-Use both when possible:
-- top-down
-- bottom-up
+Do not size a generic category market.
+Size the specific segment that matches the customer type, buyer logic, use case, and payment structure identified earlier.
 
-At minimum separate:
+The purpose of this step is not to argue that the market is attractive or unattractive.
+The purpose is to estimate the market relevant to the company as clearly and transparently as possible.
+
+It is acceptable to conclude that the market cannot yet be sized with confidence.
+It is not acceptable to invent inputs, smooth over missing data, or inflate weak assumptions into hard numbers.
+
+Always move in this order:
+1. take the target segment defined in Step 3
+2. define the market boundary
+3. choose the sizing method
+4. show the calculation
+5. test the assumptions
+6. separate theoretical demand from reachable demand
+
+### 7.1 Define the market boundary based on Step 3
+
+Before calculating anything, restate the exact segment identified in Step 3.
+
+The market definition in this step must match:
+- the customer type identified in Step 3
+- the buyer identified in Step 3
+- the use case identified in Step 3
+- the payment logic identified in Step 3
+
+State clearly:
+- customer type
+- buyer type
+- use case
+- product category
+- payment scope
+- what is included
+
+If Step 3 identified multiple segments, size them separately rather than merging them into one broad market.
+
+For example:
+- primary care screening sites
+- endocrinology departments
+- ophthalmology clinics
+- mobile screening programs
+- distributor-led channel accounts
+- public-health screening projects
+
+Do not jump from a narrow buyer segment in Step 3 to a broad industry market in Step 7.
+The sizing logic must stay consistent with the commercial logic already established.
+
+### 7.2 Separate the layers of market size
+
+Distinguish clearly between:
+
+- TAM: total theoretical demand if every relevant customer in the defined segment used the product
+- SAM: the portion that fits the company's current product scope, geography, regulatory position, and use case
+- SOM: the portion that appears obtainable under current commercial and operating constraints
+
+Also separate user layers where relevant:
 - potential users
 - target users
 - paying users
 
-When discussing market size:
-- define the market boundary clearly
-- show assumptions
-- identify uncertainty
-- avoid fake precision
-- explain what portion of the market is realistically reachable
+Do not collapse these categories into one number.
 
-Prefer:
-- "This is a meaningful niche with credible adoption"
-Over:
-- "This is a massive market" with no purchasing logic
+If the company serves multiple distinct segments with different buying logic, calculate each segment separately before presenting any combined number.
 
-## Step 8: Assess China landing potential
+### 7.3 Use at least one explicit sizing method, and prefer two
 
-This is required for WISER relevance.
+Use one or both of the following:
+- top-down
+- bottom-up
+
+If both are possible, use both and compare the results.
+If they diverge sharply, explain why.
+
+If only one method is credible, use one.
+If neither method can be supported with defensible inputs, say that clearly and stop rather than forcing a number.
+
+### 7.4 Top-down method
+
+Use top-down when credible industry-level or population-level data exists and can be matched to the segment defined in Step 3.
+
+The standard structure is:
+
+Market size = total relevant population × incidence / screening need / use-case rate × addressable setting share × product-fit share × monetizable share
+
+Examples:
+- total diabetes population × annual screening need × primary care eligibility × handheld imaging workflow fit × paid adoption rate
+- total hospitals in the target segment × department penetration × devices needed per site × average selling price
+
+When using top-down:
+- show each variable
+- show the source or assumption behind each variable
+- do not skip the conversion steps
+- do not jump directly from a large population to a large market number
+- do not use a category number if it does not match the segment being measured
+
+### 7.5 Bottom-up method
+
+Use bottom-up when customer-level, site-level, or workflow-level assumptions are possible.
+
+The standard structure is:
+
+Market size = number of target buyers × units per buyer × annual usage or replacement frequency × average selling price or annual contract value
+
+or
+
+Market size = number of paying sites × average patients screened per site × monetization per patient
+
+or
+
+Market size = reachable accounts × realistic conversion rate × average annual revenue per account
+
+Bottom-up is often more useful in deep research because it forces consistency with the buyer logic established in Step 3.
+
+When using bottom-up:
+- name the buyer type
+- define how many buyers plausibly exist
+- define the unit of purchase
+- define what one account is worth
+- define what adoption or conversion assumption is being used
+- explain why those assumptions match the segment being measured
+
+### 7.6 Show the calculation explicitly
+
+Do not hide the math inside prose.
+Write the calculation in line-by-line form.
+
+Use a structure like:
+
+- Segment from Step 3:
+- Defined market:
+- Method:
+- Formula:
+- Input 1:
+- Input 2:
+- Input 3:
+- Output:
+
+Example format:
+
+- Segment from Step 3: China primary-care diabetes screening sites
+- Defined market: handheld fundus camera demand in primary-care diabetic retinopathy screening workflows
+- Method: bottom-up
+- Formula: target sites × device need per site × ASP
+- Target sites: 8,000
+- Device need per site: 1.2
+- ASP: RMB 45,000
+- Estimated market for this segment: RMB 432 million
+
+If recurring revenue exists, calculate it separately.
+
+Example:
+- Segment from Step 3: active screening sites using AI-assisted interpretation
+- Method: bottom-up
+- Formula: active screening sites × annual screened patients per site × monetization per patient
+- Active screening sites: 2,000
+- Annual screened patients per site: 3,500
+- Monetization per patient: RMB 12
+- Estimated annual AI revenue pool: RMB 84 million
+
+If multiple segments exist, show the math for each segment separately before giving any combined total.
+
+### 7.7 Use scenarios, not one false-precision number
+
+At minimum, provide:
+- bear case
+- base case
+- bull case
+
+Change only the assumptions that genuinely drive the variance, such as:
+- adoption rate
+- pricing
+- eligible site count
+- annual usage
+- reimbursement support
+- conversion from target users to paying users
+
+Make clear which assumptions drive the range most.
+
+A rough but transparent range is better than a precise but weak number.
+
+If scenario construction is not possible because the assumptions are too weak, say that directly.
+
+### 7.8 Separate theoretical demand from reachable demand
+
+A market estimate should distinguish between:
+- theoretical demand
+- reachable demand under current conditions
+
+After sizing, state:
+- how much of this market is reachable under current approvals
+- how much is reachable through current channels
+- how much requires localization, reimbursement, procurement change, or workflow change
+- how much is constrained by service capacity or adoption friction
+
+Do not turn this into an investment conclusion.
+This section should describe reachability, not judge whether it is good enough.
+
+### 7.9 State assumptions and uncertainty clearly
+
+Every important market number depends on assumptions.
+Make them visible.
+
+For each estimate, label inputs where possible as:
+- confirmed input
+- inferred input
+- weak assumption
+
+If a number comes from a report, state what that report is actually measuring.
+Do not borrow a category-level market number that does not match the company's real use case.
+
+Examples of weak practice:
+- quoting a global AI healthcare CAGR with no segment relevance
+- using 2035 projections to imply present demand
+- treating all diagnosed patients as paying users
+- treating all hospitals as equally targetable
+- using broad industry sales figures as proof of this company's reachable segment
+
+If a key input cannot be verified, say so directly.
+If the estimate becomes too speculative, stop and say the market cannot yet be sized with confidence.
+
+### 7.10 Match the market logic to the business model
+
+The market model must reflect how the company actually makes money.
+
+If the company sells devices:
+- focus on site count
+- device need per site
+- replacement cycle
+- ASP
+- service burden
+
+If the company sells software or AI:
+- focus on active accounts
+- annual usage
+- reimbursement
+- per-study or per-site monetization
+
+If the company sells through distributors:
+- include channel reach
+- distributor incentives
+- conversion assumptions
+- margin structure
+
+If the company depends on screening programs or public-health budgets:
+- include policy dependence
+- procurement cycles
+- funding continuity
+
+Do not use one generic market-sizing template for every company.
+
+### 7.11 Use only segment-matched numbers
+
+Do not use a market number that cannot be traced back to the segment defined in Step 3.
+
+If the segment-level match is weak:
+- do not use the number as a core estimate
+- either downgrade it to a rough contextual reference
+- or exclude it entirely
+
+Broad market numbers may be used as background context, but not as the main sizing result unless they clearly match the company's actual segment.
+
+### 7.12 End this section with a neutral summary
+
+Conclude this section by stating:
+
+- what segment from Step 3 was measured
+- what market boundary was used
+- which method was used
+- what the estimated range is
+- which assumptions matter most
+- what portion appears theoretically addressable
+- what portion appears reachable under current conditions
+- what cannot yet be verified
+
+Do not conclude whether the market is attractive, large enough, or worth pursuing.
+That judgment belongs to later sections.
+ 
+## Step 8: Assess China entry path and WISER relevance
+
+This step combines two questions:
+- what the most believable China entry path looks like
+- whether WISER has a concrete role in that path
 
 Do not discuss China as a slogan.
-Make it operational.
+Do not discuss WISER as a generic value-add platform.
+Make both operational.
 
-Answer:
-- Which customer type in China would buy first?
-- In what exact use case?
-- Through what channel?
-- What local registration or localization work is required?
-- What service model is needed?
-- What local players or substitutes already exist?
-- What pricing pressure is likely?
-- What would stop this company from landing successfully?
+The purpose of this step is not to give a final recommendation.
+The purpose is to identify the narrowest believable wedge in China, test whether the company can actually enter through that wedge, and describe where WISER could or could not help.
 
-If the company sounds attractive globally but weak in China, say so clearly.
+Always move in this order:
+1. identify the current status quo
+2. identify the specific user and buyer in China
+3. identify the narrowest wedge
+4. test whether the wedge is real
+5. describe the likely entry path
+6. describe WISER's possible role
+7. state what remains unproven
 
-## Step 9: Judge VC fit
+### 8.1 Start with the status quo
 
-This is the section that makes the memo useful internally.
+The real competitor is often not another startup.
+It is the current workaround already in use.
 
-Answer:
-- Can the VC firm help in a practical, near-term way?
-- Is the likely value:
-  - China BD
-  - distributor access
-  - local partner introductions
-  - pilot design
-  - market-entry support
-  - investor positioning
-- Is there a believable 3-6 month collaboration path?
-- Would time spent on this company likely convert into real progress?
+Ask:
+- how is this problem currently handled in China
+- who is doing the work today
+- what tool, workflow, manual process, distributor relationship, or referral habit already fills the gap
+- why has that status quo persisted
+- what makes customers tolerate it today
 
-A company can be good and still not be a good WISER fit.
-Say that directly when needed.
+Do not skip this step.
+If the current workaround is good enough, cheap enough, or deeply embedded, market entry will be harder than the product story suggests.
 
-## Step 10: Conclude with an earned decision
+### 8.2 Name the specific user, buyer, and setting
 
-End with one of:
-- Proceed
-- Watch
-- Pass
+Be specific.
+Do not write:
+- hospitals
+- clinics
+- doctors
+- the China market
 
-Then explain:
-- why the company is attractive or unattractive
-- what the main unresolved question is
-- what evidence would most change the judgment
-- what should happen next, if anything
+Write the narrowest real description possible.
+
+Examples:
+- endocrinology department in a tertiary hospital trying to complete diabetic retinopathy screening inside routine diabetes management
+- community health center screening program with limited ophthalmology capacity
+- private ophthalmology clinic that wants a portable device for outreach screening
+- distributor-led sales into county-level chronic disease programs
+- health-check provider adding eye screening as an upsell service
+
+For this wedge, identify:
+- who uses the product
+- who pays
+- who approves
+- who influences the purchase
+- what problem becomes urgent enough to act on
+
+Push until the description is specific enough that a real person could be named, even if the name is not known.
+
+### 8.3 Identify the narrowest wedge
+
+Do not begin with the broadest possible China opportunity.
+Start with the smallest segment where adoption is most believable.
+
+Ask:
+- what is the narrowest China use case where this product has the strongest fit
+- which segment has the clearest pain
+- which segment has the cleanest buying logic
+- which segment is least blocked by regulation, workflow inertia, channel weakness, or weak willingness to pay
+- which segment could plausibly move first without requiring the whole market to change
+
+If multiple wedges exist, name them separately and rank them by plausibility rather than combining them into one story.
+
+A good wedge is:
+- specific
+- painful
+- reachable
+- commercially legible
+- narrow enough to test
+- broad enough to matter if repeated
+
+### 8.4 Test whether the wedge is real
+
+Do not accept a wedge just because it sounds logical.
+
+Look for evidence such as:
+- existing deployment in a similar setting
+- similar buyer behavior already observed
+- comparable products already selling into that segment
+- clear operational pain
+- reimbursement or revenue logic
+- channel partners already touching that account type
+- prior China activity by the company
+- local pilot, distributor, approval, or conference footprint
+
+Push on the weak points:
+- does the buyer actually care
+- does the user have authority
+- does the budget exist
+- does adoption require too much behavior change
+- does the product depend on policy, reimbursement, or registration changes that are not yet in place
+
+If the wedge is still mostly theoretical, say so directly.
+
+### 8.5 Describe the likely China entry path
+
+Once the wedge is identified, describe the path in sequence.
+
+State concretely:
+- what customer type would be approached first
+- through what channel
+- with what product configuration
+- under what regulatory or localization constraints
+- with what service and training burden
+- with what pricing pressure
+- against which local substitute or incumbent workflow
+
+Where useful, describe the path as a sequence such as:
+- first target account type
+- first proof point needed
+- first repeatable account type after that
+- first scaling bottleneck
+
+Do not write "enter China through partnerships" unless you can describe what kind of partner, selling to whom, for what use case.
+
+### 8.6 Apply the Office Hours pressure test
+
+Use the following forcing questions to keep the analysis honest:
+
+- What is the real status quo this product must replace, not in theory, but in the actual target setting?
+- What is the most desperate specific use case in China, where the pain is sharp enough that someone may act?
+- What is the narrowest wedge where this company could plausibly win first?
+- What has already been observed that supports this wedge, and what is still only a theory?
+- If this wedge works, why does the future become more favorable rather than less?
+
+Do not let broad market language substitute for answers to these questions.
+
+### 8.7 Assess WISER relevance through the wedge
+
+Do not ask whether WISER could "add value" in general.
+Ask whether WISER has a concrete role in the specific wedge identified above.
+
+State whether WISER is relevant through:
+- distributor access
+- customer introductions
+- pilot design
+- market-entry sequencing
+- partner identification
+- China commercialization support
+- investor positioning
+- ecosystem credibility
+
+Then ask:
+- would WISER help this company reach the first believable wedge faster
+- does WISER have access to the right customer or channel type
+- would WISER reduce search cost, trust cost, or execution risk
+- is the likely role direct and operational, or only abstract and strategic
+
+A company may be interesting in China but still not be a practical WISER fit.
+A company may fit WISER in theory but lack a believable first wedge.
+State both problems directly when present.
+
+### 8.8 State what remains unproven
+
+End this section by separating:
+- what appears operationally plausible
+- what is weakly supported
+- what remains unverified
+- what evidence would most clarify the path
+
+Allow uncertainty.
+If the China path cannot yet be described with confidence, say so.
+Do not fill gaps with optimistic narrative.
+
+### 8.9 End this section with a neutral summary
+
+Conclude by stating:
+- the most believable China wedge
+- the current status quo it would have to replace
+- the likely first user, buyer, and channel
+- the main bottlenecks in the path
+- the most plausible role for VC
+- the main unknowns that remain
+
+Do not give a final Proceed / Watch / Pass style judgment here.
+That judgment belongs to the reader.
+
 
 # Required Output Structure
 
