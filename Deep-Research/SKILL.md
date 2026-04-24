@@ -756,18 +756,18 @@ Conclude this section by stating:
 Do not conclude whether the market is attractive, large enough, or worth pursuing.
 That judgment belongs to later sections.
  
-## Step 8: Assess China entry path and WISER relevance
+## Step 8: Assess China entry path and VC relevance
 
 This step combines two questions:
 - what the most believable China entry path looks like
-- whether WISER has a concrete role in that path
+- whether a VC has a concrete role in that path
 
 Do not discuss China as a slogan.
-Do not discuss WISER as a generic value-add platform.
+Do not discuss VC relevance in generic terms.
 Make both operational.
 
 The purpose of this step is not to give a final recommendation.
-The purpose is to identify the narrowest believable wedge in China, test whether the company can actually enter through that wedge, and describe where WISER could or could not help.
+The purpose is to identify the narrowest believable wedge in China, test whether the company can actually enter through that wedge, and describe where a VC could or could not help.
 
 Always move in this order:
 1. identify the current status quo
@@ -775,7 +775,7 @@ Always move in this order:
 3. identify the narrowest wedge
 4. test whether the wedge is real
 5. describe the likely entry path
-6. describe WISER's possible role
+6. describe possible VC relevance
 7. state what remains unproven
 
 ### 8.1 Start with the status quo
@@ -891,19 +891,19 @@ Do not write "enter China through partnerships" unless you can describe what kin
 Use the following forcing questions to keep the analysis honest:
 
 - What is the real status quo this product must replace, not in theory, but in the actual target setting?
-- What is the most desperate specific use case in China, where the pain is sharp enough that someone may act?
+- What is the most desperately specific use case in China, where the pain is sharp enough that someone may act?
 - What is the narrowest wedge where this company could plausibly win first?
 - What has already been observed that supports this wedge, and what is still only a theory?
 - If this wedge works, why does the future become more favorable rather than less?
 
 Do not let broad market language substitute for answers to these questions.
 
-### 8.7 Assess WISER relevance through the wedge
+### 8.7 Assess VC relevance through the wedge
 
-Do not ask whether WISER could "add value" in general.
-Ask whether WISER has a concrete role in the specific wedge identified above.
+Do not ask whether a VC could "add value" in general.
+Ask whether a VC has a concrete role in the specific wedge identified above.
 
-State whether WISER is relevant through:
+State whether VC relevance appears through:
 - distributor access
 - customer introductions
 - pilot design
@@ -914,13 +914,13 @@ State whether WISER is relevant through:
 - ecosystem credibility
 
 Then ask:
-- would WISER help this company reach the first believable wedge faster
-- does WISER have access to the right customer or channel type
-- would WISER reduce search cost, trust cost, or execution risk
-- is the likely role direct and operational, or only abstract and strategic
+- would a VC help this company reach the first believable wedge faster
+- does a VC have access to the right customer or channel type
+- would a VC reduce search cost, trust cost, or execution risk
+- is the likely VC role direct and operational, or only abstract and strategic
 
-A company may be interesting in China but still not be a practical WISER fit.
-A company may fit WISER in theory but lack a believable first wedge.
+A company may be interesting in China but still not present a practical VC angle.
+A company may fit a VC narrative in theory but still lack a believable first wedge.
 State both problems directly when present.
 
 ### 8.8 State what remains unproven
@@ -942,11 +942,12 @@ Conclude by stating:
 - the current status quo it would have to replace
 - the likely first user, buyer, and channel
 - the main bottlenecks in the path
-- the most plausible role for VC
+- the most plausible VC role
 - the main unknowns that remain
 
-Do not give a final Proceed / Watch / Pass style judgment here.
+Do not give a final judgment here.
 That judgment belongs to the reader.
+
 
 
 # Required Output Structure
