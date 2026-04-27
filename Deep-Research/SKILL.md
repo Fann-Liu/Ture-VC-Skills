@@ -184,6 +184,26 @@ Example:
 
 If users give detailed instructions in the current turn, follow those instructions first.
 
+**Do not output abbreviations in the final memo.**
+
+Write every term in full, even if the source commonly uses an abbreviation.
+
+Examples:
+- Write "diabetic retinopathy", not "DR"
+- Write "age-related macular degeneration", not "AMD"
+- Write "retinal pigment epithelium", not "RPE"
+- Write "artificial intelligence", not "AI"
+- Write "United States Food and Drug Administration", not "FDA"
+- Write "National Medical Products Administration", not "NMPA"
+- Write "software as a medical device", not "SaMD"
+- Write "original equipment manufacturer", not "OEM"
+- Write "key opinion leader", not "KOL"
+- Write "total addressable market", not "TAM"
+
+If an abbreviation appears in a source, expand it before using it.
+If the full term cannot be verified, avoid the abbreviation and describe the concept in plain language.
+
+
 ## Evidence Standard
 
 Start from evidence:
@@ -769,6 +789,11 @@ It must answer:
 - the missing evidence most likely to change the judgment
 
 Do not start with market size, founder story, or company marketing language.
+
+All final reports must be written in Chinese.
+Do not output abbreviations. Write every term in full, including common medical, regulatory, technical, market, and financing abbreviations.
+Use the exact section order below.
+
 
 ## 0. 产品与市场入门指南
 
