@@ -58,6 +58,20 @@ Do not use market size to hide weak product-market logic.
 Do not discuss China in generic terms.
 Do not give a positive recommendation without naming unresolved risks.
 
+**Before evaluating the company commercially, explain what the product actually does in plain language.**
+
+The reader may be an intelligent non-specialist. Do not assume they understand the disease, anatomy, device category, biomarker, clinical workflow, or treatment mechanism.
+
+For medical device and ophthalmic companies, the report must clearly separate:
+- disease / clinical problem
+- current standard of care
+- product mechanism
+- why the mechanism could matter
+- what remains unproven
+
+The explanation should be simple enough for an outsider, but technically accurate enough for an investor memo.
+
+
 ## Research Priorities
 
 Prioritize questions in this order:
@@ -207,8 +221,67 @@ Research silently. Do not output interim analysis unless the user asks for it.
 
 The final memo should cover the sections below. Never skip the underlying checks.
 
-## 1. Company Definition
+## 0. 产品与市场入门指南
 
+This section explains the product and its niche market for a non-specialist reader.
+
+### 0.1 这家公司到底在做什么
+
+用外行能懂的话说明：
+- 产品是什么
+- 它作用在人体/疾病/流程的哪个位置
+- 它不是在做什么
+- 为什么这个问题过去不好解决
+
+必须使用一个简洁类比，但不能牺牲准确性。
+
+### 0.2 疾病和临床背景
+
+说明：
+- 相关疾病是什么
+- 患者会发生什么问题
+- 当前医生通常怎么处理
+- 当前方案哪里不够好
+- 这个疾病或流程为什么会形成商业机会
+
+如果是眼科公司，必须解释：
+- 眼睛中相关结构是什么，例如 retina, macula, RPE, optic nerve
+- 这些结构在疾病中发生了什么
+- 患者、医生、医院分别在意什么
+
+### 0.3 核心技术原理
+
+用“机制链条”写清楚：
+
+`输入 / 设备动作 → 生物或物理反应 → 临床效果假设 → 商业价值假设`
+
+必须包括：
+- 核心技术名词
+- 每个术语的白话解释
+- 技术为什么难
+- 公司声称自己解决了哪一个关键难点
+- 哪些已经被证据支持
+- 哪些仍然只是公司假设或临床前推断
+
+### 0.4 细分市场定位
+
+回答：
+- 它属于哪个真实细分行业
+- 不应该被粗暴归到哪个大类
+- 首要应用场景是什么
+- 相邻应用场景是什么
+- 这个细分市场现在处于什么阶段，早期科研、早期临床、注册放量、成熟替代，还是价格竞争
+- 中国市场最相关的真实需求是什么
+
+### 0.5 本节判断
+
+用 3-5 句话判断：
+- 技术是否讲得通
+- 市场定位是否清楚
+- 这个市场是真需求、概念市场，还是临床证据尚未完成的潜在市场
+
+
+## 1. 公司定义
 Start with the shortest correct definition of the company.
 
 Answer:
@@ -273,8 +346,7 @@ Do not infer funding from hiring growth, product launches, conference attendance
 If no clear funding information is found, write:
 "无明确信息"
 
-## 2. Problem And Use Case
-
+## 2.  应用场景
 Test whether the problem is painful enough to support buying behavior.
 
 Answer:
@@ -298,8 +370,7 @@ For medical technology, test real-world use:
 - does it lower cost
 - does it only sound good on slides
 
-## 3. Customer, Buyer, And Payment Chain
-
+## 3. 客户群体
 Follow the workflow and the money.
 
 Identify separately:
@@ -321,7 +392,7 @@ Answer:
 
 If the buying chain is unclear, say so. A weak buying chain is often more important than strong technology.
 
-## 4. Commercial Model
+## 4. 商业模式
 
 Evaluate how the business turns product value into revenue.
 
@@ -343,7 +414,7 @@ Key questions:
 - Is the company selling equipment, software, workflow, service, or outcome?
 - What must happen for the sales motion to scale?
 
-### Partnerships And Reference Customers
+### 合作案例
 
 Search for real-world evidence:
 - named hospitals
@@ -383,7 +454,7 @@ A logo, mention, or conference photo is not enough to prove a commercial custome
 If no relevant partnership, deployment, or reference-customer information is found, write:
 "无相关信息"
 
-## 5. Technical, Clinical, And Regulatory Readiness
+## 5. 技术、临床和监管准备情况
 
 Pressure-test whether the product is mature enough to matter.
 
@@ -413,7 +484,7 @@ For clinical evidence, distinguish:
 - anecdote
 - not verified
 
-## 6. Differentiation And Defensibility
+## 6. 差异化与护城河
 
 Do not force a moat judgment.
 
@@ -465,7 +536,7 @@ For ophthalmic and medical technology companies, pay attention to:
 - better throughput
 - evidence that the product works in real clinical or screening settings
 
-## 7. Relevant Market Size
+## 7. 相关市场规模
 
 Provide simple, factual market-size context.
 
@@ -515,7 +586,7 @@ If inputs are weak, do not calculate.
 If no reliable market-size data is found, write:
 "无可靠市场规模信息"
 
-## 8. China Entry Path And WISER Relevance
+## 8. 中国落地路径
 
 This section is not the final investment recommendation.
 It identifies the narrowest believable China wedge and tests whether WISER has a concrete role.
@@ -530,7 +601,7 @@ Move in this order:
 6. WISER relevance
 7. What remains unproven
 
-## 8.1 Current Status Quo
+## 8.1 现状
 
 The real competitor is often the current workaround.
 
@@ -543,7 +614,7 @@ Ask:
 
 If the current workaround is good enough, cheap enough, or deeply embedded, say entry is harder.
 
-### 8.2 Specific User, Buyer, And Setting
+### 8.2 用户、买家、使用场景
 
 Do not write:
 - hospitals
@@ -567,7 +638,7 @@ For the wedge, identify:
 - who influences purchase
 - what problem becomes urgent enough to act
 
-### 8.3 Narrowest Wedge
+### 8.3 最小可售单位
 
 Start with the smallest segment where adoption is most believable.
 
@@ -589,7 +660,7 @@ A good wedge is:
 - narrow enough to test
 - broad enough to matter if repeated
 
-### 8.4 Wedge Evidence
+### 8.4 可售性证明
 
 Look for:
 - existing deployment in a similar setting
@@ -610,7 +681,7 @@ Pressure-test:
 
 If the wedge is mostly theoretical, say so.
 
-### 8.5 Likely China Entry Path
+### 8.5 可能的中国落地路径
 
 State concretely:
 - first customer type
@@ -626,7 +697,7 @@ State concretely:
 
 Do not write "enter China through partnerships" unless you describe what kind of partner, selling to whom, for what use case.
 
-### 8.6 Office Hours Pressure Test
+### 8.6 Office Hours
 
 Answer:
 - What is the real status quo this product must replace?
@@ -638,7 +709,7 @@ Answer:
 
 Do not let broad market language substitute for these answers.
 
-### 8.7 VC Relevance
+### 8.7 VC 相关性
 
 Ask whether VC has a concrete role in the specific wedge.
 
@@ -661,7 +732,7 @@ Assess:
 A company may be interesting in China but still not present a practical VC angle.
 Say that directly when true.
 
-## 8.8 China Section Summary
+## 8.8 中国部分总结
 
 End this section with a neutral summary:
 - most believable China wedge
@@ -675,134 +746,183 @@ Do not give the final recommendation here.
 
 ---
 
+---
+
 # Final Output Structure
 
 All final reports must be written in Chinese.
 
 Use the exact section order below.
-Do not rename the 1-8 core sections.
+Do not rename the core sections from 0 to 8.
 Do not skip any section.
-If evidence is unavailable, say so directly.
+If evidence is unavailable, state it directly in Chinese.
+The memo must lead with judgment, then follow the workflow from Section 0 to Section 8.
 
-The memo should lead with judgment, but the body must strictly follow the research workflow from Step 1 to Step 8.
+## Opening Judgment
 
-## 开头结论
+Write one short Chinese paragraph before Section 0.
 
-用一段话先给判断。
+It must answer:
+- whether the company deserves further attention
+- the real reason
+- the largest risk
+- the missing evidence most likely to change the judgment
 
-必须回答：
-- 这家公司是否值得继续看
-- 真正原因是什么
-- 最大风险是什么
-- 哪个缺失证据最可能改变判断
+Do not start with market size, founder story, or company marketing language.
 
-写法要求：
-- 不要铺垫
-- 不要写公司宣传语
-- 不要先讲市场空间
-- 判断必须直接
+## 0. 产品与市场入门指南
 
-Example:
-"初步判断：值得继续看，但只适合进入下一轮验证，不适合直接推进。公司解决的是一个真实 workflow 问题，产品也有一定临床或运营价值。问题在于买方链条、付款逻辑和中国进入路径仍然没有被充分证明。下一步不应该继续听公司讲愿景，而是验证三个事实：谁付钱，为什么现在付，进入中国后第一个可复制客户是谁。"
+### 0.1 这家公司到底在做什么
 
-## 1. Company Definition
+Explain in plain Chinese:
+- what the product is
+- where it acts in the body, disease pathway, clinical workflow, or operational workflow
+- what it is not doing
+- why this problem was hard to solve before
+
+Must include one concise analogy.
+The analogy must improve understanding without reducing accuracy.
+
+### 0.2 疾病和临床背景
+
+Explain:
+- what the related disease or clinical condition is
+- what happens to the patient
+- how physicians usually handle it today
+- where the current approach is insufficient
+- why this disease or workflow can create a business opportunity
+
+For ophthalmology companies, also explain:
+- relevant eye structures, such as retina, macula, retinal pigment epithelium, optic nerve
+- what happens to those structures in the disease
+- what patients, physicians, and hospitals each care about
+
+### 0.3 核心技术原理
+
+Use this mechanism chain:
+
+`输入 / 设备动作 → 生物或物理反应 → 临床效果假设 → 商业价值假设`
+
+Must include:
+- core technical terms
+- plain-language explanation for each term
+- why the technology is difficult
+- which key difficulty the company claims to solve
+- what is supported by evidence
+- what remains company assumption or preclinical inference
+
+### 0.4 细分市场定位
+
+Answer:
+- which real niche sector this company belongs to
+- which broad category it should not be lazily grouped into
+- primary application setting
+- adjacent application settings
+- current stage of the niche market, such as early research, early clinical adoption, regulatory scale-up, mature replacement, or price competition
+- the most relevant real demand in China
+
+### 0.5 本节判断
+
+Write 3-5 Chinese sentences judging:
+- whether the technology logic makes sense
+- whether market positioning is clear
+- whether the market is real demand, concept market, or potential market awaiting clinical evidence
+
+## 1. 公司定义
 
 ### 1.1 最短定义
 
-用一句话定义公司。
+Give the shortest correct Chinese definition of the company.
 
-必须包括：
-- 公司实际卖什么
-- 属于什么真实类别
-- 解决什么问题
-- 用在什么场景
-- 最具体的主要使用者是谁
+Must include:
+- what the company actually sells
+- its real category
+- the problem it solves
+- use setting
+- most specific intended user
 
-### 1.2 产品和使用场景
+### 1.2 产品、场景和用户
 
-说明：
-- 核心产品是什么
-- 产品形态是什么，设备、软件、服务、耗材、平台或组合
-- 谁操作
-- 谁依赖结果
-- 使用发生在什么流程里
-- 使用前后 workflow 有什么变化
+Explain:
+- product form, such as device, software, service, consumable, platform, or combination
+- who operates it
+- who depends on the output
+- where it sits in the workflow
+- what changes before and after adoption
 
-如果涉及核心技术术语，必须给简单解释。
-
-格式：
-- 核心技术：
-- 简单解释：
-- 实际用途：
+Define the primary user at the most specific commercially meaningful level.
 
 ### 1.3 融资情况
 
-区分写清楚：
+Separate clearly:
 
 Confirmed:
-- 已确认融资总额
-- 已确认轮次
-- 每轮时间、金额、投资方、资金类型
+- total funding confirmed
+- confirmed rounds
+- date, amount, investors, and funding type for each round
 
 Partially reported:
-- 有报道但缺少金额、轮次或投资方的信息
+- reported but incomplete financing information
 
 Unclear / unavailable:
-- 没有明确来源的信息
+- missing or unverifiable financing information
 
-如果没有清楚融资信息，写：
+If no clear financing information is found, write:
 "无明确信息"
 
 ### 1.4 本节判断
 
-用 2-4 句话判断：
-- 这家公司到底是什么，不是什么
-- 它目前更像技术公司、产品公司、渠道公司、服务公司，还是项目型公司
-- 公司定义中最不清楚的地方是什么
+Write 2-4 Chinese sentences judging:
+- what the company is and is not
+- whether it looks more like a technology company, product company, channel company, service company, or project-based company
+- the most unclear part of the company definition
 
-## 2. Problem And Use Case
+## 2. 应用场景
 
-### 2.1 真实问题
+### 2.1 真实 workflow 问题
 
-回答：
-- 当前 workflow 中具体哪里坏了
-- 谁最直接感受到这个问题
-- 当前替代方案是什么
-- 当前替代方案为什么不够好
-- 问题是成本、速度、准确性、人力、可及性、依从性、转诊效率，还是收入转化问题
+Answer:
+- what exact workflow problem exists today
+- who experiences it most directly
+- what the current alternative is
+- why the current alternative is insufficient
+- whether the problem is about cost, speed, accuracy, labor, access, compliance, referral efficiency, or revenue conversion
 
 ### 2.2 痛点强度
 
-明确分类：
+Classify the pain as one of:
 - nice-to-have improvement
 - meaningful workflow improvement
 - must-solve pain point
 
-说明为什么这样分类。
+Explain why.
 
-### 2.3 医疗或临床价值，如果适用
+### 2.3 真实使用价值
 
-回答：
-- 是否改善诊断
-- 是否扩大筛查
-- 是否减少人力
-- 是否改变转诊行为
-- 是否创造新收入
-- 是否降低成本
-- 是否只是 slides 上好看
+For medical technology, answer:
+- does it improve diagnosis
+- does it expand screening
+- does it reduce labor
+- does it change referral behavior
+- does it create new revenue
+- does it lower cost
+- does it only sound good on slides
+
+For non-medical technology, adapt the same logic to operational value.
 
 ### 2.4 本节判断
 
-用 2-4 句话判断：
-- 问题是否真实
-- 是否足以触发购买行为
-- 如果购买动机弱，弱在哪里
+Write 2-4 Chinese sentences judging:
+- whether the problem is real
+- whether the problem can trigger buying behavior
+- where the use case is strongest
+- where the use case is weak or unproven
 
-## 3. Customer, Buyer, And Payment Chain
+## 3. 客户群体
 
 ### 3.1 角色拆分
 
-用表格写：
+Use a Chinese table:
 
 | 角色 | 具体对象 | 证据状态 | 说明 |
 |---|---|---|---|
@@ -812,70 +932,71 @@ Unclear / unavailable:
 | Beneficiary |  | Confirmed / Inference / Not verified |  |
 | Channel partner |  | Confirmed / Inference / Not verified |  |
 
-### 3.2 付款逻辑
+### 3.2 付款链条
 
-回答：
-- 谁签单
-- 谁付钱
-- 预算来自哪里
-- 是购买、租赁、订阅、服务费、项目费、报销、grant，还是其他形式
-- 是一次性购买、周期性购买，还是 recurring revenue
-- 是否有续费逻辑
+Answer:
+- who signs the purchase
+- who pays
+- where the budget comes from
+- payment form, such as purchase, rental, subscription, service fee, project fee, reimbursement, grant, or other
+- whether the purchase is one-off, periodic, or recurring
+- whether renewal logic exists
 
 ### 3.3 采购摩擦
 
-回答：
-- 采购审批难点是什么
-- 用户和买方是否分离
-- 受益者和付款方是否分离
-- 是否需要改变医生、护士、技师、销售渠道或患者行为
-- 是否依赖政策、报销或院内流程变化
+Answer:
+- procurement approval difficulty
+- whether user and buyer are separate
+- whether beneficiary and payer are separate
+- whether adoption requires behavior change from physicians, nurses, technicians, sales channels, or patients
+- whether adoption depends on policy, reimbursement, or hospital workflow change
 
 ### 3.4 本节判断
 
-用 2-4 句话判断：
-- 买方是否真实
-- 付款链是否清楚
-- 这是不是一个容易被销售复制的购买场景
+Write 2-4 Chinese sentences judging:
+- whether the buyer is real
+- whether the payment chain is clear
+- whether this is a repeatable sales situation
+- what makes the buying chain weak, if weak
 
-## 4. Commercial Model
+## 4. 商业模式
 
-### 4.1 商业模式
+### 4.1 收入模式
 
-说明：
-- 公司卖设备、软件、耗材、服务、workflow、结果，还是组合
-- 收入模型是什么
-- 已知价格是多少
-- 如果价格不可得，写明未验证
-- 毛利逻辑是否可见
-- 是否有服务和培训负担
+Explain:
+- whether the company sells equipment, software, consumables, services, workflow, outcomes, or a combination
+- revenue model
+- known pricing
+- if pricing is unavailable, say it is not verified
+- gross margin logic if visible
+- service and training burden
 
 ### 4.2 销售和交付
 
-回答：
-- 销售周期大概是什么类型，短、中、长，或未验证
-- 是否依赖试点
-- 是否依赖 grant 或一次性项目
-- 部署复杂度如何
-- 交付后是否需要持续服务
-- repeatability 是否已经被证明
+Answer:
+- sales cycle type, short, medium, long, or not verified
+- whether sales depend on pilots
+- whether revenue depends on grants or one-off projects
+- deployment complexity
+- post-deployment service burden
+- whether repeatability has been proven
 
 ### 4.3 为什么现在买
 
-回答：
-- 客户为什么现在买
-- 为什么不继续使用当前替代方案
-- 为什么买这家公司而不是竞品
-- 如果理由不清楚，直接写不清楚
+Answer:
+- why customers buy now
+- why they do not continue with the current alternative
+- why they buy from this company rather than competitors
+- if the reason is unclear, say so directly
 
-### 4.4 Partnerships And Reference Customers
+### 4.4 合作案例
 
-如有信息，用表格写：
+If relevant information exists, use this table:
 
 | Partner | Type | Country / Region | Relationship type | Product / use case | Evidence | China relevance |
 |---|---|---|---|---|---|---|
 
-Relationship type 只能使用或接近以下分类：
+Relationship type should be one of:
 - commercial deployment
 - pilot
 - clinical study
@@ -885,37 +1006,37 @@ Relationship type 只能使用或接近以下分类：
 - grant or project
 - unclear
 
-如果没有相关信息，写：
+If no relevant partnership, deployment, or reference-customer information is found, write:
 "无相关信息"
 
 ### 4.5 本节判断
 
-用 2-4 句话判断：
-- 商业模式是否成立
-- 现在更像 scalable sales，pilot-heavy，project-based，还是 research-led
-- 商业化最大的断点在哪里
+Write 2-4 Chinese sentences judging:
+- whether the commercial model works
+- whether the company is scalable sales, pilot-heavy, project-based, or research-led
+- where the largest commercialization break is
 
-## 5. Technical, Clinical, And Regulatory Readiness
+## 5. 技术、临床和监管准备情况
 
 ### 5.1 技术成熟度
 
-说明：
-- 核心技术是什么
-- 技术是否已经产品化
-- 是否可部署
-- 主要 operating constraints 是什么
-- 是否需要特殊培训、环境、设备、数据或集成
+Explain:
+- core technology
+- whether it has been productized
+- whether it is deployable
+- main operating constraints
+- whether it requires special training, environment, equipment, data, or integration
 
-每个核心技术术语必须给简单解释。
+Every core technical term must receive a plain Chinese explanation.
 
 ### 5.2 临床或验证证据
 
-用表格写：
+Use this table:
 
 | Evidence type | Source | Population / setting | Result | Quality judgment |
 |---|---|---|---|---|
 
-Evidence type 可包括：
+Evidence type can include:
 - peer-reviewed study
 - prospective clinical trial
 - retrospective validation
@@ -926,117 +1047,118 @@ Evidence type 可包括：
 
 ### 5.3 监管状态
 
-回答：
-- 已有哪些监管批准或注册
-- 适用于哪些国家或地区
-- 对应哪些产品和 claims
-- 哪些 claims 还依赖未来审批
-- 中国监管路径是否清楚
+Answer:
+- which regulatory approvals or registrations exist
+- countries or regions covered
+- relevant products and claims
+- which claims still depend on future approvals
+- whether the China regulatory path is clear
 
-如果没有明确监管信息，写：
+If no clear regulatory information exists, write:
 "无明确监管信息"
 
 ### 5.4 本节判断
 
-用 2-4 句话判断：
-- 产品是否足够成熟
-- 临床或验证证据是否够用
-- 监管状态是否支持商业化
-- 最大技术、临床或监管风险是什么
+Write 2-4 Chinese sentences judging:
+- whether the product is mature enough
+- whether clinical or validation evidence is sufficient
+- whether regulatory status supports commercialization
+- the largest technical, clinical, or regulatory risk
 
-## 6. Differentiation And Defensibility
+## 6. 差异化与护城河
 
 ### 6.1 真正不同的地方
 
-回答：
-- 公司到底哪里不同
-- 差异来自技术、临床证据、监管、workflow、渠道、成本、品牌、数据、服务，还是地理位置
-- 这个差异是否会影响采购决策
+Answer:
+- what is actually different
+- whether the difference is technical, clinical, regulatory, workflow-based, channel-based, cost-based, brand-based, data-based, service-based, or geographic
+- whether the difference affects purchasing decisions
 
 ### 6.2 买方是否在意
 
-回答：
-- 买方为什么会在意这个差异
-- 这个差异是否能节省钱、节省人力、提升收入、降低风险、提高 throughput，或改善诊断质量
-- 如果买方不一定在意，直接写明
+Answer:
+- why buyers care about this difference
+- whether it saves money, reduces labor, increases revenue, lowers risk, improves throughput, or improves diagnostic quality
+- if buyers may not care enough, say so directly
 
 ### 6.3 可复制性
 
-回答：
-- 严肃竞争者能否复制
-- 复制需要多久，难在哪里
-- 如果被复制，公司是否还有优势
-- 这个优势是否能经受价格竞争
+Answer:
+- whether serious competitors can copy it
+- how long copying may take, if inferable
+- what makes copying difficult
+- whether the company still has advantage if copied
+- whether the advantage survives price competition
 
 ### 6.4 本节判断
 
-用 2-4 句话判断：
-- 差异化是否真实
-- 差异化是否有商业意义
-- 这更像功能差异、时间领先、可信商业优势，还是暂时叙事
+Write 2-4 Chinese sentences judging:
+- whether differentiation is real
+- whether differentiation has commercial meaning
+- whether this is a feature difference, temporary lead, credible commercial advantage, or mostly narrative
 
-不要强行写 moat。
-除非证据异常强，不要说公司有护城河。
+Do not force a moat judgment.
+Do not say the company has a moat unless evidence is unusually strong.
 
-## 7. Relevant Market Size
+## 7. 相关市场规模
 
 ### 7.1 最相关市场指标
 
-优先选择最贴近公司业务的指标。
+Choose the metric closest to the company’s actual business.
 
-说明：
+Include:
 - geography
 - year
 - source
 - measurement unit
 - number
-- 这个数字测量的是什么
-- 它是直接相关还是背景信息
+- what the number measures
+- whether it is directly relevant or contextual
 
 ### 7.2 简单计算，如果适用
 
-只在输入可靠时计算。
+Only calculate if inputs are reliable.
 
-写清楚：
+Write:
 - assumption 1
 - assumption 2
 - calculation
 - result
 - why this matters
 
-如果输入弱，不要计算。写：
+If inputs are weak, write:
 "输入不足，不做计算。"
 
 ### 7.3 市场规模判断
 
-用 2-4 句话判断：
-- 市场是否足够大
-- 是否 reachable
-- 市场大是否真的能转化为公司机会
-- 市场规模是否掩盖了买方或支付问题
+Write 2-4 Chinese sentences judging:
+- whether the market is large enough
+- whether it is reachable
+- whether market size can translate into company opportunity
+- whether market size is hiding buyer or payment weakness
 
-如果没有可靠数据，写：
+If no reliable market-size data is found, write:
 "无可靠市场规模信息"
 
-## 8. China Entry Path And WISER Relevance
+## 8. 中国落地路径
 
 This section is not the final investment recommendation.
 It tests the narrowest believable China wedge and VC relevance.
 
-### 8.1 Current Status Quo
+### 8.1 现状
 
-回答：
-- 中国目前如何处理这个问题
-- 谁在做这件事
-- 使用什么工具、人工流程、转诊习惯、渠道关系或采购模式
-- 为什么这个现状能持续
-- 当前 workaround 是否便宜、够用或嵌入很深
+Answer:
+- how China currently handles this problem
+- who does the work today
+- what tool, manual process, referral habit, channel relationship, or procurement pattern fills the gap
+- why the status quo persists
+- whether the workaround is cheap, good enough, or deeply embedded
 
-### 8.2 Specific User, Buyer, And Setting
+### 8.2 用户、买家、使用场景
 
-写出最具体的中国场景。
+State the most specific China setting.
 
-必须包括：
+Must include:
 - first user
 - economic buyer
 - procurement approver
@@ -1044,34 +1166,35 @@ It tests the narrowest believable China wedge and VC relevance.
 - setting
 - urgent problem
 
-不要写泛泛的医院、诊所、医生、中国市场。
+Do not write generic labels like hospitals, clinics, physicians, or China market.
 
-### 8.3 Narrowest Wedge
+### 8.3 最小可售单位
 
-回答：
-- 最窄、最可信的中国切入场景是什么
-- 为什么这个场景痛点最清楚
-- 为什么这个场景购买逻辑最干净
-- 为什么这个场景监管、workflow、渠道或支付阻力相对最低
+Answer:
+- the narrowest credible China wedge
+- why pain is clearest there
+- why buying logic is cleanest there
+- why regulation, workflow, channel, or payment resistance is relatively lower there
 
-如果有多个 wedge，按可信度排序。
+If multiple wedges exist, rank them by plausibility.
 
-### 8.4 Wedge Evidence
+### 8.4 可售性证明
 
-区分写：
+Separate clearly:
 
 Confirmed:
-- 已观察到的证据
+- observed evidence
 
 Inference:
-- 基于相似市场、相似客户或相似产品推断的内容
+- inference based on similar markets, similar customers, or similar products
 
 Not verified:
-- 仍未验证但关键的信息
+- key information still unverified
 
-### 8.5 Likely China Entry Path
+### 8.5 可能的中国落地路径
 
-按顺序写：
+Write in this exact order:
+
 1. First target account type:
 2. Channel:
 3. Product configuration:
@@ -1083,45 +1206,47 @@ Not verified:
 9. First repeatable account type:
 10. First scaling bottleneck:
 
-不要只写"通过合作伙伴进入中国"。
-必须说明是什么合作伙伴，卖给谁，卖什么 use case。
+Do not write only "enter China through partnerships."
+Specify what partner, selling to whom, and for what use case.
 
-### 8.6 Office Hours Pressure Test
+### 8.6 Office Hours
 
-逐条回答：
-- 真实 status quo 是什么？
-- 最 desperate 的中国 use case 是什么？
-- 最窄的 first wedge 是什么？
-- 已经观察到什么支持这个 wedge？
-- 哪些仍然只是 theory？
-- 如果 wedge 成立，为什么未来会变得更有利？
+Answer each question directly:
+- What is the real status quo this product must replace?
+- What is the most desperately specific China use case?
+- What is the narrowest wedge where this company could plausibly win first?
+- What has already been observed that supports this wedge?
+- What is still only a theory?
+- If the wedge works, why does the future become more favorable?
 
-### 8.7 VC Relevance
+Do not let broad market language substitute for these answers.
 
-回答：
-- VC 是否能帮助它更快到达 first wedge
-- VC 是否有相关客户、渠道、试点、产业伙伴或融资定位资源
-- VC 能降低 search cost、trust cost，还是 execution risk
-- VC 的作用是直接 operational，还是只是 abstract strategic
+### 8.7 VC 相关性
 
-如果 VC 角色不清楚，写：
+Answer:
+- whether VC can help the company reach the first wedge faster
+- whether VC has relevant customer, channel, pilot, industrial partner, or financing-positioning resources
+- whether VC reduces search cost, trust cost, or execution risk
+- whether VC’s role is operational or only abstract
+
+If VC relevance is unclear, write:
 "VC relevance is weak or not yet proven."
 
-### 8.8 China Section Summary
+### 8.8 中国部分总结
 
-用 4-6 句话总结：
-- 最可信 China wedge
-- 它要替代的 status quo
-- first user、buyer、channel
+Write 4-6 Chinese sentences summarizing:
+- most believable China wedge
+- status quo it must replace
+- first user, buyer, and channel
 - main bottlenecks
 - most plausible VC role
 - main unknowns
 
-不要在这里给最终投资建议。
+Do not give the final recommendation here.
 
 ## 最终建议
 
-最后必须用以下格式结束：
+End every memo with this exact Chinese structure:
 
 Recommendation: Proceed / Watch / Pass
 
@@ -1131,11 +1256,10 @@ Biggest open question:
 
 Next thing that must be verified:
 
-写作要求：
-- Recommendation 必须和前面分析一致
-- Proceed 只能用于问题真实、买方清楚、付款逻辑基本成立、产品成熟度够、China wedge 或 VC relevance 有现实抓手的公司
-- Watch 用于产品或临床逻辑不错，但商业化、支付、中国路径或证据仍不够的公司
-- Pass 用于问题不够痛、买方不清楚、支付逻辑弱、差异化弱、或 China / VC relevance 不成立的公司
-
+Rules:
+- Recommendation must follow from the analysis above.
+- Use Proceed only when the problem is real, buyer is clear, payment logic is basically valid, product maturity is sufficient, and China wedge or VC relevance has a practical handle.
+- Use Watch when product or clinical logic is interesting, but commercialization, payment, China path, or evidence is still insufficient.
+- Use Pass when pain is weak, buyer is unclear, payment logic is weak, differentiation is weak, or China / VC relevance does not hold.
 
 
